@@ -1,0 +1,17 @@
+html {
+  height: 100vh;
+  overflow: hidden;
+  background: 
+    radial-gradient(circle at bottom, #fff, transparent 80%),    
+    linear-gradient(to top, dodgerblue 0%, transparent 70%),    
+    linear-gradient(to bottom, transparent, rgba(white, 0.4) 70%),
+    #1e90ff;  
+  animation: bg 5s infinite;
+}
+
+@keyframes bg {
+  0%, 100% { background-color: #1e90ff; }
+  25% { background-color: green; }
+  50% { background-color: yellow; }
+  75% { background-color: pink; }
+}
